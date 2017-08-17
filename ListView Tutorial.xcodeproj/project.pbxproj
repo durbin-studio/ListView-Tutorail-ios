@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		99B1FAD31F46006F00AE369C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B1FAD21F46006F00AE369C /* AppDelegate.swift */; };
+		99B1FAD51F46006F00AE369C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B1FAD41F46006F00AE369C /* ViewController.swift */; };
+		99B1FAD81F46006F00AE369C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99B1FAD61F46006F00AE369C /* Main.storyboard */; };
+		99B1FADB1F46006F00AE369C /* ListView_Tutorial.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 99B1FAD91F46006F00AE369C /* ListView_Tutorial.xcdatamodeld */; };
+		99B1FADD1F46006F00AE369C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99B1FADC1F46006F00AE369C /* Assets.xcassets */; };
+		99B1FAE01F46006F00AE369C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99B1FADE1F46006F00AE369C /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		99B1FACF1F46006E00AE369C /* ListView Tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ListView Tutorial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		99B1FAD21F46006F00AE369C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		99B1FAD41F46006F00AE369C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		99B1FAD71F46006F00AE369C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		99B1FADA1F46006F00AE369C /* ListView_Tutorial.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ListView_Tutorial.xcdatamodel; sourceTree = "<group>"; };
+		99B1FADC1F46006F00AE369C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		99B1FADF1F46006F00AE369C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		99B1FAE11F46006F00AE369C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99B1FACC1F46006E00AE369C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		99B1FAC61F46006E00AE369C = {
+			isa = PBXGroup;
+			children = (
+				99B1FAD11F46006E00AE369C /* ListView Tutorial */,
+				99B1FAD01F46006E00AE369C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		99B1FAD01F46006E00AE369C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99B1FACF1F46006E00AE369C /* ListView Tutorial.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99B1FAD11F46006E00AE369C /* ListView Tutorial */ = {
+			isa = PBXGroup;
+			children = (
+				99B1FAD21F46006F00AE369C /* AppDelegate.swift */,
+				99B1FAD41F46006F00AE369C /* ViewController.swift */,
+				99B1FAD61F46006F00AE369C /* Main.storyboard */,
+				99B1FADC1F46006F00AE369C /* Assets.xcassets */,
+				99B1FADE1F46006F00AE369C /* LaunchScreen.storyboard */,
+				99B1FAE11F46006F00AE369C /* Info.plist */,
+				99B1FAD91F46006F00AE369C /* ListView_Tutorial.xcdatamodeld */,
+			);
+			path = "ListView Tutorial";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99B1FACE1F46006E00AE369C /* ListView Tutorial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99B1FAE41F46006F00AE369C /* Build configuration list for PBXNativeTarget "ListView Tutorial" */;
+			buildPhases = (
+				99B1FACB1F46006E00AE369C /* Sources */,
+				99B1FACC1F46006E00AE369C /* Frameworks */,
+				99B1FACD1F46006E00AE369C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ListView Tutorial";
+			productName = "ListView Tutorial";
+			productReference = 99B1FACF1F46006E00AE369C /* ListView Tutorial.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99B1FAC71F46006E00AE369C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Waheduzzaman;
+				TargetAttributes = {
+					99B1FACE1F46006E00AE369C = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 99B1FACA1F46006E00AE369C /* Build configuration list for PBXProject "ListView Tutorial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 99B1FAC61F46006E00AE369C;
+			productRefGroup = 99B1FAD01F46006E00AE369C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99B1FACE1F46006E00AE369C /* ListView Tutorial */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99B1FACD1F46006E00AE369C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99B1FAE01F46006F00AE369C /* LaunchScreen.storyboard in Resources */,
+				99B1FADD1F46006F00AE369C /* Assets.xcassets in Resources */,
+				99B1FAD81F46006F00AE369C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99B1FACB1F46006E00AE369C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99B1FADB1F46006F00AE369C /* ListView_Tutorial.xcdatamodeld in Sources */,
+				99B1FAD51F46006F00AE369C /* ViewController.swift in Sources */,
+				99B1FAD31F46006F00AE369C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		99B1FAD61F46006F00AE369C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99B1FAD71F46006F00AE369C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		99B1FADE1F46006F00AE369C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99B1FADF1F46006F00AE369C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		99B1FAE21F46006F00AE369C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		99B1FAE31F46006F00AE369C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99B1FAE51F46006F00AE369C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ListView Tutorial/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.novinia.ListView-Tutorial";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		99B1FAE61F46006F00AE369C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ListView Tutorial/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.novinia.ListView-Tutorial";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99B1FACA1F46006E00AE369C /* Build configuration list for PBXProject "ListView Tutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99B1FAE21F46006F00AE369C /* Debug */,
+				99B1FAE31F46006F00AE369C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99B1FAE41F46006F00AE369C /* Build configuration list for PBXNativeTarget "ListView Tutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99B1FAE51F46006F00AE369C /* Debug */,
+				99B1FAE61F46006F00AE369C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		99B1FAD91F46006F00AE369C /* ListView_Tutorial.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				99B1FADA1F46006F00AE369C /* ListView_Tutorial.xcdatamodel */,
+			);
+			currentVersion = 99B1FADA1F46006F00AE369C /* ListView_Tutorial.xcdatamodel */;
+			path = ListView_Tutorial.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 99B1FAC71F46006E00AE369C /* Project object */;
+}
